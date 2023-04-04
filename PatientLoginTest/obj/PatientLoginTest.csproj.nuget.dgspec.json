@@ -1,0 +1,386 @@
+{
+  "format": 1,
+  "restore": {
+    "M:\\team organization\\login-api\\PatientLoginTest\\PatientLoginTest.csproj": {}
+  },
+  "projects": {
+    "M:\\team organization\\login-api\\LoginBusinessLogic\\LoginBusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "M:\\team organization\\login-api\\LoginBusinessLogic\\LoginBusinessLogic.csproj",
+        "projectName": "LoginBusinessLogic",
+        "projectPath": "M:\\team organization\\login-api\\LoginBusinessLogic\\LoginBusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
+        "outputPath": "M:\\team organization\\login-api\\LoginBusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "M:\\team organization\\login-api\\LoginModels\\LoginModels.csproj": {
+                "projectPath": "M:\\team organization\\login-api\\LoginModels\\LoginModels.csproj"
+              },
+              "M:\\team organization\\login-api\\PatientLoginFluentApi\\PatientLoginFluentApi.csproj": {
+                "projectPath": "M:\\team organization\\login-api\\PatientLoginFluentApi\\PatientLoginFluentApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "M:\\team organization\\login-api\\LoginModels\\LoginModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "M:\\team organization\\login-api\\LoginModels\\LoginModels.csproj",
+        "projectName": "LoginModels",
+        "projectPath": "M:\\team organization\\login-api\\LoginModels\\LoginModels.csproj",
+        "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
+        "outputPath": "M:\\team organization\\login-api\\LoginModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "M:\\team organization\\login-api\\LoginService\\LoginService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "M:\\team organization\\login-api\\LoginService\\LoginService.csproj",
+        "projectName": "LoginService",
+        "projectPath": "M:\\team organization\\login-api\\LoginService\\LoginService.csproj",
+        "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
+        "outputPath": "M:\\team organization\\login-api\\LoginService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "M:\\team organization\\login-api\\LoginBusinessLogic\\LoginBusinessLogic.csproj": {
+                "projectPath": "M:\\team organization\\login-api\\LoginBusinessLogic\\LoginBusinessLogic.csproj"
+              },
+              "M:\\team organization\\login-api\\LoginModels\\LoginModels.csproj": {
+                "projectPath": "M:\\team organization\\login-api\\LoginModels\\LoginModels.csproj"
+              },
+              "M:\\team organization\\login-api\\PatientLoginFluentApi\\PatientLoginFluentApi.csproj": {
+                "projectPath": "M:\\team organization\\login-api\\PatientLoginFluentApi\\PatientLoginFluentApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "M:\\team organization\\login-api\\PatientLoginFluentApi\\PatientLoginFluentApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "M:\\team organization\\login-api\\PatientLoginFluentApi\\PatientLoginFluentApi.csproj",
+        "projectName": "PatientLoginFluentApi",
+        "projectPath": "M:\\team organization\\login-api\\PatientLoginFluentApi\\PatientLoginFluentApi.csproj",
+        "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
+        "outputPath": "M:\\team organization\\login-api\\PatientLoginFluentApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "M:\\team organization\\login-api\\LoginModels\\LoginModels.csproj": {
+                "projectPath": "M:\\team organization\\login-api\\LoginModels\\LoginModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "M:\\team organization\\login-api\\PatientLoginTest\\PatientLoginTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "M:\\team organization\\login-api\\PatientLoginTest\\PatientLoginTest.csproj",
+        "projectName": "PatientLoginTest",
+        "projectPath": "M:\\team organization\\login-api\\PatientLoginTest\\PatientLoginTest.csproj",
+        "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
+        "outputPath": "M:\\team organization\\login-api\\PatientLoginTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "M:\\team organization\\login-api\\LoginBusinessLogic\\LoginBusinessLogic.csproj": {
+                "projectPath": "M:\\team organization\\login-api\\LoginBusinessLogic\\LoginBusinessLogic.csproj"
+              },
+              "M:\\team organization\\login-api\\LoginModels\\LoginModels.csproj": {
+                "projectPath": "M:\\team organization\\login-api\\LoginModels\\LoginModels.csproj"
+              },
+              "M:\\team organization\\login-api\\LoginService\\LoginService.csproj": {
+                "projectPath": "M:\\team organization\\login-api\\LoginService\\LoginService.csproj"
+              },
+              "M:\\team organization\\login-api\\PatientLoginFluentApi\\PatientLoginFluentApi.csproj": {
+                "projectPath": "M:\\team organization\\login-api\\PatientLoginFluentApi\\PatientLoginFluentApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
