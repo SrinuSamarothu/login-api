@@ -40,6 +40,10 @@ namespace PatientFluentApi
 
         public void Update(PatientLogin patientLogin)
         {
+            var user = context.PatientLogins.Where(p=>p.Email == patientLogin.Email).FirstOrDefault();
+            if(patientLogin.Password == "" || patientLogin.Password == " " || patientLogin.Password == null){
+                patientLogin.Password = user.Password;
+            }
             context.PatientLogins.Update(patientLogin);
             context.SaveChanges();
         }
