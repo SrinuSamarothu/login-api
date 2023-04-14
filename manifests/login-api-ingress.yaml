@@ -1,0 +1,42 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: login-api-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/use-regex: "true"
+spec:
+  ingressClassName: nginx
+  rules:
+  - http:
+      paths:
+      - path: /api/PatientLogin/Get/?p*
+        pathType: Prefix
+        backend:
+          service:
+            name: login-api
+            port:
+              number: 80
+      - path: /api/PatientLogin/Add/?p*
+        pathType: Prefix
+        backend:
+          service:
+            name: login-api
+            port:
+              number: 80
+      - path: /api/PatientLogin/Update/?p*
+        pathType: Prefix
+        backend:
+          service:
+            name: login-api
+            port:
+              number: 80
+      - path: /api/PatientLogin/Delete/?p*
+        pathType: Prefix
+        backend:
+          service:
+            name: login-api
+            port:
+              number: 80
+              
+              
